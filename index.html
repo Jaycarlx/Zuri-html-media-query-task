@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" type="image" sizes="32x32" href="favicon.png" />
+
+    <title>Zuri task on designing a registration page</title>
+  </head>
+  <body>
+    <section id="mainW">
+      <div class="container">
+        <div class="sideColumn">
+          <h1>
+            Learn to code by <br />
+            watching others
+          </h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="right-col">
+          <div class="top-card">
+            <p><span>Try it free 7 days</span> then $20/mo. Thereafter</p>
+          </div>
+          <div class="formWrapper">
+            <form action="post">
+              <div class="entry">
+                <label for="first-name">First Name</label>
+                <input
+                  name="firstName"
+                  id="firstName"
+                  type="text"
+                  placeholder="First Name"
+                />
+                <img src="error.svg" class="errorI" alt="error icon" />
+                <p class="errorT">First Name cannot be empty</p>
+              </div>
+              <div class="entry">
+                <label for="lastName">Las—t Name</label>
+                <input
+                  name="lastName"
+                  id="lastName"
+                  type="text"
+                  placeholder="Last Name"
+                />
+                <img src="error.svg" class="errorI" alt="error icon" />
+                <p class="errorT">Last Name cannot be empty</p>
+              </div>
+              <div class="entry">
+                <label for="Email">Email Address</label>
+                <input
+                  name="Email"
+                  id="Email"
+                  type="email"
+                  placeholder="Email Address"
+                />
+                <img src="error.svg" class="errorI" alt="error icon" />
+                <p class="errorT">Looks like this is not email</p>
+              </div>
+              <div class="entry">
+                <label for="password">Password Address</label>
+                <input
+                  name="password"
+                  id="password"
+                  type="password"
+                  placeholder="Password"
+                />
+                <img src="error.svg" class="errorI" alt="error icon" />
+                <p class="errorT">Password cannot be empty</p>
+              </div>
+              <button type="submit">Claim your free trial</button>
+              <p class="formEnd">
+                By clicking the button, you are agreeing to our
+                <span>Terms and Services</span>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
